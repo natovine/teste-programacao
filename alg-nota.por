@@ -3,13 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro n1, n2, soma
+	inteiro n1, n2, soma, media
 	escreva("digite a primeira nota")
 	leia(n1)
 	escreva("digite a segunda nota")
 	leia(n2)
 	soma = n1 + n2
+	media = soma / 2
 	escreva("a soma é: \n", soma)
+	escreva("o res é: ", media, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
